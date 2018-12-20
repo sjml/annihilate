@@ -71,6 +71,7 @@ function setup() {
     };
   }
 
+  aud.load();
   if (aud.readyState < 4) {
     aud.oncanplaythrough = function() {
       reveal();

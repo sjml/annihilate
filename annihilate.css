@@ -25,7 +25,6 @@ h1 {
 }
 
 .text {
-    /* text-align: center; */
     margin: auto;
     font-size: 20px;
     max-width: 400px;
@@ -34,6 +33,10 @@ h1 {
 .text a {
     text-decoration: none;
     color: #888;
+}
+
+.text p.github {
+    text-align: center;
 }
 
 .spinner {
@@ -58,7 +61,7 @@ h1 {
 
 #play {
     font-size: 40px;
-    width: 100%;
+    width: 90%;
 }
 
 p.label {
