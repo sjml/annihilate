@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>annihilate</title>
+    <link rel="stylesheet" href="./annihilate.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+    <script src="./annihilate.js"></script>
+</head>
+<body>
+    <audio id="creep" src="./audio/annihilation.m4a"></audio>
+
+    <h1>ANNIHILATE</h1>
+
+    <div class="container">
+        <div class="spinner">loading...</div>
+        <div class="controls gone">
+            <button id="play">begin</button>
+
+            <p class="label">Random Delay</p>
+            <div class="randomness">
+                <div class="numinput">
+                    <label for="min">Minimum</label>
+                    <input id="min" type="number" value="1" min="1">
+                </div>
+                <div class="numinput">
+                    <label for="max">Maximum</label>
+                    <input id="max" type="number" value="3" min="2">
+                </div>
+                <select name="interval" id="interval">
+                    <option value="0">Seconds</option>
+                    <option value="1" selected="selected">Minutes</option>
+                    <option value="2">Hours</option>
+                    <option value="3">Days</option>
+                </select>
+            </div>
+            <div class="initial-checkbox">
+                <input type="checkbox" name="initial" id="initial" checked>
+                <label for="initial">Play on Start</label>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="text">
+        <p><cite><a href="http://www.imdb.com/title/tt2798920/" target="_">Annihilation</a></cite> is a really good movie. You should watch it.</p>
+        <p>This site will play <a href="https://slate.com/culture/2018/02/annihilation-co-composer-ben-salisbury-explains-the-musical-cue-from-the-alien.html" target="_">the noise</a> at random intervals. Just leave the tab open and go about your day. You can set the upper and lower bounds of how often it will happen. No, you can’t see how long until the next one. No, you can’t stop it. (You can close the tab or reload the page, though.)</p>
+    </div>
+
+    <script>
+        setup();
+    </script>
+</body>
+</html>

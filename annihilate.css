@@ -1,0 +1,103 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+@media (max-width: 540px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+.text {
+    /* text-align: center; */
+    margin: auto;
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #888;
+}
+
+.spinner {
+    font-size: 40px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    margin: auto;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.gone {
+    display: none;
+}
+
+.controls .label {
+    margin-bottom: 10px;
+}
+
+#play {
+    font-size: 40px;
+    width: 100%;
+}
+
+p.label {
+    font-size: 25px;
+    width: 100%;
+}
+
+.randomness {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.numinput {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.numinput label {
+    font-size: 20px;
+    text-align: right;
+}
+
+.numinput input {
+    font-size: 20px;
+    width: 100px;
+    margin: 5px 100px 0 20px;
+}
+
+#interval {
+    font-size: 25px;
+    width: 175px;
+    margin: auto;
+}
+
+.initial-checkbox {
+    margin: 15px auto 0 auto;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
